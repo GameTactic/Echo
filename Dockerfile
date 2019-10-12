@@ -6,4 +6,5 @@ MAINTAINER Niko Granö <niko@ironlions.fi>
 ARG JAR_FILE
 ADD target/${JAR_FILE} /usr/share/gametactic/echo.jar
 
-ENTRYPOINT ["/usr/bin/java", "-jar", "/usr/share/gametactic/echo.jar"]
+ENTRYPOINT ["java", "-jar", "/usr/share/gametactic/echo.jar"]
+EXPOSE 8080/tcp
