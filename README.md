@@ -13,9 +13,9 @@ This is placeholder for future.
 ## Packing
 
 1. `./mvnw package`
-2. `./mvnw dockerfile:build`*
-3. `./mvnw verify`
-4. `./mvnw dockerfile:push`*
-5. `./mvnw deploy`
+2. `./mvnw verify`
 
-\* _Only maintainers when doing release!_
+
+## Release
+1. `./mvnw deploy`
+
