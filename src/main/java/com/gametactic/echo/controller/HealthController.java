@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HealthController {
+final public class HealthController {
 
     private static final String RESPONSE = "{\"state\": true}";
 
